@@ -11,8 +11,8 @@ let addresses = [
 
 // 设置优选地址api接口
 let addressesapi = [
-	'https://raw.githubusercontent.com/cmliu/WorkerVless2sub/main/addressesapi.txt', //可参考内容格式 自行搭建。
-	//'https://raw.githubusercontent.com/cmliu/WorkerVless2sub/main/addressesipv6api.txt', //IPv6优选内容格式 自行搭建。
+	'hhttps://github.com/ZacsGithub/WorkerVless2sub/raw/main/addressesapi.txt', //可参考内容格式 自行搭建。
+	//'https://github.com/ZacsGithub/WorkerVless2sub/raw/main/addressesipv6api.txt', //IPv6优选内容格式 自行搭建。
 ];
 
 // 设置优选地址，不带端口号默认80，noTLS订阅生成
@@ -24,16 +24,16 @@ let addressesnotls = [
 
 // 设置优选noTLS地址api接口
 let addressesnotlsapi = [
-	'https://raw.githubusercontent.com/cmliu/CFcdnVmess2sub/main/addressesapi.txt', //可参考内容格式 自行搭建。
+	'https://github.com/ZacsGithub/WorkerVless2sub/raw/main/addressesapi.txt', //可参考内容格式 自行搭建。
 ];
 
 let DLS = 8;//速度下限
 let addressescsv = [
-	//'https://raw.githubusercontent.com/cmliu/WorkerVless2sub/main/addressescsv.csv', //iptest测速结果文件。
+	//'https://github.com/ZacsGithub/WorkerVless2sub/raw/main/addressescsv.csv', //iptest测速结果文件。
 ];
 
 let subconverter = "url.v1.mk"; //在线订阅转换后端，目前使用肥羊的订阅转换功能。支持自建psub 可自行搭建https://github.com/bulianglin/psub
-let subconfig = "https://raw.githubusercontent.com/cmliu/ACL4SSR/main/Clash/config/ACL4SSR_Online_Full_MultiMode.ini"; //订阅转换配置文件
+let subconfig = "https://github.com/ZacsGithub/ACL4SSR/raw/main/Clash/config/ACL4SSR_Online_Full_MultiMode.ini"; //订阅转换配置文件
 let noTLS = 'false'; //改为 true , 将不做域名判断 始终返回noTLS节点
 let link = '';
 let edgetunnel = 'ed';
@@ -45,13 +45,13 @@ let proxyIPs = [//无法匹配到节点名就随机分配以下ProxyIP域名
 let CMproxyIPs = [
 	//'proxyip.aliyun.fxxk.dedyn.io:HK',//匹配节点名, 有HK就分配该ProxyIP域名
 ]
-let socks5DataURL = '';//'https://raw.githubusercontent.com/cmliu/WorkerVless2sub/main/socks5Data'
+let socks5DataURL = '';//'https://raw.githubusercontent.com/ZacsGithub/WorkerVless2sub/main/socks5Data'
 let BotToken ='';
 let ChatID =''; 
 let proxyhosts = [//本地代理域名池
 	//'ppfv2tl9veojd-maillazy.pages.dev',
 ];
-let proxyhostsURL = 'https://raw.githubusercontent.com/cmliu/CFcdnVmess2sub/main/proxyhosts';//在线代理域名池URL
+let proxyhostsURL = 'https://github.com/ZacsGithub/CFcdnVmess2sub/raw/main/proxyhosts';//在线代理域名池URL
 let EndPS = '';//节点名备注内容
 let 协议类型 = 'VLESS';
 let FileName = 'WorkerVless2sub';
